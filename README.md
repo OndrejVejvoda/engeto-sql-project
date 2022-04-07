@@ -34,3 +34,16 @@ Těžba a dobývání |	3.4
 Zpracovatelský průmysl |	4.67
 Zemědělství, lesnictví, rybářství |	4.71
 Zdravotní a sociální péče |	4.82
+
+###  2. Výzkumná otázka
+_Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?_
+
+Níže zobrazeny výsledky [výpočtů](), podle kterých vidíme, že za průměrnou mzdu bylo možné koupit 1262 kg chleba v roce 2006 a v roce 2018 to činilo 1319 kg chleba.
+Mléka bylo za průměrnou mzdu v daném roce možné koupt 1409 l v roce 2006 a 1614 l v roce 2018.
+
+| year | food_item | average_price_per_unit | average_payroll | units_for_avg_payroll | unit
+| ------------- |:-------------:|:-------------:| :-------------:| :-------------:| :-------------:|
+2006 |	Chléb konzumní kmínový |	16.12 Kč / 1kg |	20 342.38 Kč	| 1262.0 |	1kg
+2006 |	Mléko polotučné pasterované |	14.44 Kč / 1l |	20 342.38 Kč |	1409.0 |	1l
+2018 |	Chléb konzumní kmínový |	24.24 Kč / 1kg	| 31 980.26 Kč	| 1319.0 |	1kg
+2018 |	Mléko polotučné pasterované |	19.82 Kč / 1l |	31 980.26 Kč |	1614.0 |	1l
