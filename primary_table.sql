@@ -1,8 +1,8 @@
-CREATE OR REPLACE TABLE t_ondrej_vejvoda_project_sql_primary_final AS	
+-- CREATE OR REPLACE TABLE t_ondrej_vejvoda_project_sql_primary_final AS	
 	WITH payroll_temp AS (
 		SELECT
-			cp.payroll_year ,
-			cpib.name AS name,
+			cp.payroll_year AS date_year ,
+			cpib.name,
 			cvt.name AS value_type,
 			Avg(cp.value) AS avg_payroll_value,
 			cpu.name AS unit
@@ -32,14 +32,14 @@ CREATE OR REPLACE TABLE t_ondrej_vejvoda_project_sql_primary_final AS
 		GROUP BY YEAR(cp.date_from), cpc.name
 		)
 	SELECT
-		payroll_temp.payroll_year AS date_year,
-		payroll_temp.name AS name,
-		payroll_temp.value_type ,
+		payroll_temp.date_year ,
+		payroll_temp.name,
+		payroll_temp.value_type,
 		ROUND(AVG(payroll_temp.avg_payroll_value),2) AS avg_value,
 		payroll_temp.unit
 	FROM payroll_temp 
-	GROUP BY payroll_temp.payroll_year,payroll_temp.name 
-	HAVING payroll_temp.payroll_year BETWEEN 2006 AND 2018
+	GROUP BY payroll_temp.date_year,payroll_temp.name 
+	HAVING payroll_temp.date_year BETWEEN (SELECT MIN(price_temp.date_year) FROM price_temp) AND (SELECT MAX(price_temp.date_year) FROM price_temp)
 	UNION 
 	SELECT 
 		price_temp.date_year  ,
