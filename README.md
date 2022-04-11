@@ -63,3 +63,20 @@ Po [porovnání meziročních změn cen potravin a průměrných mezd](https://g
 ###  5. Výzkumná otázka
 
 _Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?_
+
+Při porovnání procentuálních změn HDP s změnami průměrných mezd a cen nelze jednoznačně říci, zda a jaký vliv má výše HDP na mzdy a ceny potravin.
+
+| year | pct_gdp_change | pct_payroll_change | pct_price_change | 
+| ------------- |:-------------:|:-------------:| :-------------:|
+2007 |	5.57 | 6.79 |	6.76
+2008 |	2.69 |	8.06 |	6.19
+2009 |	-4.66 |	3.25 |	-6.42
+2010 |	2.43 |	2.0 |	1.95
+2011 |	1.76 |	2.27 |	3.35
+2012 |	-0.78 |	3.14 |	6.73
+2013 |	-0.05 |	-1.56 |	5.1
+2014 |	2.26 |	2.54 |	0.74
+2015 |	5.39 |	2.42 |	-0.55
+2016 |	2.54 |  3.66 |	-1.19
+2017 |	5.17 | 6.4 |	9.63
+2018 |	3.2 |	7.55 |	2.17
