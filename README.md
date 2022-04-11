@@ -64,7 +64,7 @@ Po [porovnání meziročních změn cen potravin a průměrných mezd](https://g
 
 _Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?_
 
-Při porovnání procentuálních změn HDP s změnami průměrných mezd a cen nelze jednoznačně říci, zda a jaký vliv má výše HDP na mzdy a ceny potravin.
+Při [porovnání](https://github.com/OndrejVejvoda/engeto-sql-project/blob/main/5.research_question.sql) procentuálních změn HDP s změnami průměrných mezd a cen nelze jednoznačně říci, zda a jaký vliv má výše HDP na mzdy a ceny potravin.
 
 | year | pct_gdp_change | pct_payroll_change | pct_price_change | 
 | ------------- |:-------------:|:-------------:| :-------------:|
