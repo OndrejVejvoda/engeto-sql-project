@@ -1,4 +1,4 @@
--- CREATE OR REPLACE TABLE t_ondrej_vejvoda_project_sql_primary_final AS	
+CREATE OR REPLACE TABLE t_ondrej_vejvoda_project_sql_primary_final AS	
 	WITH payroll_temp AS (
 		SELECT
 			cp.payroll_year AS date_year ,
