@@ -18,3 +18,4 @@ WITH temp AS (
 	WHERE temp.avg_price_previus_year IS NOT NULL 
  	GROUP BY temp.name
  	ORDER BY average_growth_rate
+ 	;
