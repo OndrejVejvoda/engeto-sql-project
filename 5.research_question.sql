@@ -39,4 +39,5 @@ WITH t_gdp AS (
 		ON t_gdp.date_year = t_payroll.date_year
 	LEFT JOIN temp_price AS t_price 
 		ON t_gdp.date_year = t_price.date_year
+	WHERE t_gdp.pct_gdp_change IS NOT NULL 
 	;
