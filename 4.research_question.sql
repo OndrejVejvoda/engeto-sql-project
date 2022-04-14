@@ -32,4 +32,5 @@ WITH temp_payroll AS (
 		ON t1.date_year = t2.date_year
  	WHERE t1.avg_price_prev_year IS NOT NULL
  		AND ROUND(t1.price_pct_change - t2.payroll_pct_change,2) > 10
- 	ORDER BY t1.name, t1.date_year; 
+ 	ORDER BY diff
+ 	; 
